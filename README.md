@@ -4,13 +4,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Model Architecture](#model-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Training](#training)
-  - [Inference](#inference)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
