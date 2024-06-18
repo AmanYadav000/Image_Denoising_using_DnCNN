@@ -1,4 +1,4 @@
-# Image_Denoising_using_DnCNN
+
 # Enhanced Deep Super-Resolution (EDSR) Model with Gradient Accumulation
 
 ## Table of Contents
@@ -28,3 +28,5 @@ The EDSR model consists of:
 - Skip connections for residual learning.
 ![Sample Output](images/archi.png)
 
+## RESULTS 
+![result_1](images/result1.png)
