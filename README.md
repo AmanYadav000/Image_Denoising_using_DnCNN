@@ -1,1 +1,31 @@
 # Image_Denoising_using_DnCNN
+# Enhanced Deep Super-Resolution (EDSR) Model with Gradient Accumulation
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Model Architecture](#model-architecture)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Training](#training)
+  - [Inference](#inference)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+This repository contains the implementation of the Enhanced Deep Super-Resolution (EDSR) model for single-image super-resolution tasks. The model leverages deep residual learning to effectively reconstruct high-frequency details from low-resolution images. Gradient accumulation is utilized to enable training on larger models without encountering memory constraints.
+
+The EDSR model is based on the paper:
+- **Enhanced Deep Residual Networks for Single Image Super-Resolution** by Bee Lim et al. (2017) [EDSR Paper](https://arxiv.org/abs/1707.02921)
+
+## Model Architecture
+
+The EDSR model consists of:
+- An initial convolutional layer followed by ReLU activation.
+- Multiple residual blocks with two convolutional layers and ReLU activation.
+- A final convolutional layer to produce the output image.
+- Skip connections for residual learning.
+
+### Model Summary
+
