@@ -28,5 +28,10 @@ The EDSR model consists of:
 - Skip connections for residual learning.
 ![Sample Output](images/archi.png)
 
+## Achieved PSNR value
+The Peak Signal-to-Noise Ratio (PSNR) measures the quality of denoised images compared to their original 
+counterparts. 17.09 dB was achieved, demonstrating effective noise reduction and preservation of image 
+fidelity. 
+
 ## RESULTS 
 ![result_1](images/result1.png)
