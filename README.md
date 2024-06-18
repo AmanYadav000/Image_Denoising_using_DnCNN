@@ -26,6 +26,5 @@ The EDSR model consists of:
 - Multiple residual blocks with two convolutional layers and ReLU activation.
 - A final convolutional layer to produce the output image.
 - Skip connections for residual learning.
-
-### Model Summary
+![Sample Output](images/archi.png)
 
